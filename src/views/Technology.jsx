@@ -23,7 +23,7 @@ export const Technology = () => {
                                 maxWidth: '100px',
                                 padding: '5px',
                             }}
-                            src={`../../public/images/technologies/${tech.url}`}
+                            src={`images/technologies/${tech.url}`}
                         >
                         </Box>
                     )
