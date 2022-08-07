@@ -29,7 +29,7 @@ export const SectionAbout = () => {
                     },
                     padding: '10px'
                 }}
-                src='../../public/images/section-about-me/working.svg'
+                src='images/section-about-me/working.svg'
             >
             </Box>
 
@@ -93,7 +93,7 @@ export const SectionAbout = () => {
                             }
                         }}
                         download
-                        href="../../public/files/cv.pdf"
+                        href="files/cv.pdf"
                     >
                         Descargar CV
                     </Button>

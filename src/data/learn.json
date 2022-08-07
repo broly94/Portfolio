@@ -14,7 +14,7 @@
                 "MVC"
             ],
             "plataform": "Udemy",
-            "url": "../../public/images/learn/desarrollo-web-completo-torre.jpg",
+            "url": "images/learn/desarrollo-web-completo-torre.jpg",
             "link": "https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/",
             "certificate": "https://ibb.co/pjr2Bvx",
             "level": "Básico / Intermedio",
@@ -28,7 +28,7 @@
                 "C#"
             ],
             "plataform": "Youtube",
-            "url": "../../public/images/learn/C-Sharp.jpg",
+            "url": "images/learn/C-Sharp.jpg",
             "link": "https://www.youtube.com/watch?v=6EBNIgkrU74&list=PLU8oAlHdN5BmpIQGDSHo5e1r4ZYWQ8m4B",
             "certificate": "",
             "level": "Básico / Intermedio",
@@ -44,7 +44,7 @@
                 "Bootstrap"
             ],
             "plataform": "Udemy",
-            "url": "../../public/images/learn/javascript-torre.jpg",
+            "url": "images/learn/javascript-torre.jpg",
             "link": "https://www.udemy.com/course/javascript-moderno-guia-definitiva-construye-10-proyectos/",
             "certificate": "https://ibb.co/jkmHh6G",
             "level": "Intermedio / Avanzado",
@@ -64,7 +64,7 @@
                 "Socket.IO"
             ],
             "plataform": "Udemy",
-            "url": "../../public/images/learn/nodejs.png",
+            "url": "images/learn/nodejs.png",
             "link": "https://www.udemy.com/course/node-de-cero-a-experto/",
             "certificate": "https://ibb.co/4m4FtsJ",
             "level": "Intermedio / Avanzado",
@@ -83,7 +83,7 @@
                 "MongoDb"
             ],
             "plataform": "BOOTCAMP NUCBA",
-            "url": "../../public/images/learn/nucba.png",
+            "url": "images/learn/nucba.png",
             "link": "https://nucba.com.ar/codingbootcamp",
             "certificate": "",
             "level": "Intermedio / Avanzado",
@@ -102,7 +102,7 @@
                 "Laravel"
             ],
             "plataform": "Udemy",
-            "url": "../../public/images/learn/php-urrego.jpg",
+            "url": "images/learn/php-urrego.jpg",
             "link": "https://www.udemy.com/course/crea-aplicaciones-php-seguras-con-sql-y-ajax-desde-cero/",
             "certificate": "",
             "level": "Intermedio / Avanzado",
@@ -125,7 +125,7 @@
                 "Firestore"
             ],
             "plataform": "Udemy",
-            "url": "../../public/images/learn/react-fernando.jpg",
+            "url": "images/learn/react-fernando.jpg",
             "link": "https://www.udemy.com/course/react-cero-experto/",
             "certificate": "",
             "level": "Intermedio / Avanzado",
@@ -141,7 +141,7 @@
                 "Comandos Básicos"
             ],
             "plataform": "Youtube",
-            "url": "../../public/images/learn/ubuntu.png",
+            "url": "images/learn/ubuntu.png",
             "link": "https://www.youtube.com/watch?v=HuirxQ3Nxvc&list=PLoRfWwOOv4jyPstV84CUsjxRaSZgTlfcj",
             "certificate": "",
             "level": "Básico",

@@ -15,7 +15,7 @@ export const Header = () => {
 
             <Avatar
                 alt="development"
-                src="../../public/images/header/mi_foto.jpeg"
+                src="images/header/mi_foto.jpeg"
                 data-aos="flip-right"
                 sx={{
                     position: 'relative',
