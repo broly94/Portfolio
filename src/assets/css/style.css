@@ -1,0 +1,19 @@
+ #typography-logo {
+     position: relative;
+     transition: 0.3s;
+     display: block !important;
+ }
+
+ #typography-logo:hover {
+     transform: translateY(-10%);
+ }
+
+ #card-tech {
+     position: relative;
+     transition: 0.3s;
+     display: block !important;
+ }
+
+ #card-tech:hover {
+    transform: translateY(-5%);
+ }
