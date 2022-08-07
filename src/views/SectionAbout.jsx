@@ -78,7 +78,7 @@ export const SectionAbout = () => {
                     display="flex"
                     justifyContent="center"
                     alignItems="center"
-                    sx={{ paddingTop: '20px' }}
+                    sx={{ padding: '30px' }}
                 >
                     <Button
                         variant="contained"
