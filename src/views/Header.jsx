@@ -7,7 +7,7 @@ export const Header = () => {
         <Box
             sx={{
                 width: '100%',
-                height: '80vh',
+                height: '40vh',
                 backgroundImage: 'url(https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg)',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
@@ -28,7 +28,7 @@ export const Header = () => {
                     },
                     left: {
                         xs: '35%',
-                        sm: '46%',
+                        sm: '44%',
                     }
                 }}
             />

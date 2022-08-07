@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Grid, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import { Technology } from './Technology'
+import { TechnologyMobil } from './TechnologyMobil'
 
 export const SectionTechnologies = () => {
-    
+
+
+    useEffect(() => {
+
+    }, [screen.width])
+
     return (
         <Box
             display="flex"
@@ -12,10 +18,10 @@ export const SectionTechnologies = () => {
             alignItems="center"
             id="Tecnologias"
             sx={{
-                height: '100vh',
+                height: 'auto',
                 width: '100%',
                 padding: { xs: '5px', sm: '5px' },
-                backgroundColor: '#E14630'
+                backgroundColor: '#ededed'
             }}
             
         >
@@ -28,16 +34,17 @@ export const SectionTechnologies = () => {
                 >
                     <Typography
                         variant="p"
-                        color="white.main"
+                        color="primary"
                         gutterBottom
                         fontSize="1.5rem"
                         fontFamily="Segoe UI"
+                        textTransform="uppercase"
                         sx={{
                             marginBottom: '40px',
                             textAlign: "center"
                         }}
                     >
-                        Tecnologias que utilizo para llevar a cabo los proyectos
+                        Tecnologias utilizadas
                     </Typography>
                 </Box>
                 <Grid
@@ -45,6 +52,8 @@ export const SectionTechnologies = () => {
                     display="flex"
                     justifyContent="center"
                     alignItems="center"
+                    flexDirection='row'
+                    flexWrap={true}
                     gap={1}
                     sx={{
                         width: "100%",
@@ -52,7 +61,7 @@ export const SectionTechnologies = () => {
                     }}
                 >
 
-                    <Technology />
+                    { screen.width >= 592 ? (<Technology />) : <TechnologyMobil />}
 
 
                 </Grid>
