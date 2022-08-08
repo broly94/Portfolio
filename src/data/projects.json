@@ -1,0 +1,30 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Marketplace",
+            "technologies": [
+                "images/technologies/html.png",
+                "images/technologies/css.png",
+                "images/technologies/javascript.png"
+            ],
+            "githubLink": "https://github.com/broly94/Web-Marketplace-para-Bicicleterias",
+            "pageLink": "https://astounding-praline-9d3661.netlify.app/",
+            "description": "Sitio web e-commerce realizado como trabajo integrador del bootcamp NUCBA ",
+            "imageLink": "images/projects/marketplace-nucba.jpg"
+        },
+        {
+            "id": 2,
+            "name": "App Citas Veterinaria",
+            "technologies": [
+                "images/technologies/html.png",
+                "images/technologies/css.png",
+                "images/technologies/react.png"
+            ],
+            "githubLink": "https://github.com/broly94/Agenda-Citas-para-Veterinaria",
+            "pageLink": "https://stoic-ride-1cd140.netlify.app/",
+            "description": "App para agendar turnos para veterinaria, para la persistencia de datos se utilizó LocalStorage",
+            "imageLink": "images/projects/citas-veterinaria.png"
+        }
+    ]
+}

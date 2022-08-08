@@ -1,9 +1,16 @@
 import { Box } from '@mui/system'
-import React from 'react'
+import React, { useState } from 'react'
 import { ImagesProjects } from './ImagesProjects'
 import { TabMenu } from './TabMenu'
 
-export const Projects = () => {
+export const Projects = ({data}) => {
+
+    const [ id, setId] =  useState(0);
+
+    const getProjectId = (id) => {
+        setId(id)
+    }
+
     return (
         <Box
             display="flex"
@@ -26,7 +33,7 @@ export const Projects = () => {
                    
                 }}
             >
-                <ImagesProjects />
+                <ImagesProjects data={data} getProjectId={getProjectId} />
             </Box>
 
             <Box
@@ -40,7 +47,7 @@ export const Projects = () => {
                     top: '80px'
                 }}
             >
-                <TabMenu />
+                <TabMenu data={data} idProject={id} />
 
             </Box>
 

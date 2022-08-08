@@ -3,7 +3,12 @@ import { Box } from '@mui/system'
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import React from 'react'
 
-export const ImagesProjects = () => {
+export const ImagesProjects = ({ data, getProjectId }) => {
+    
+    const handleProject = (id) => {
+        getProjectId(id)
+    }
+
     return (
 
         <Grid
@@ -23,70 +28,43 @@ export const ImagesProjects = () => {
             }}
         >
 
-            <Box
-                component="figure"
-                id="figure-project"
-            >
-                <Box
-                    component="img"
-                    id="image-project"
-                    src={`images/projects/citas-veterinaria.png`}
-                >
-                </Box>
-
-                <Box
-                    id="content-project"
-                    display="flex"
-                    justifyContent="center"
-                    alignItems="center"
-                    flexDirection="row"
-                    fontSize="1.2rem"
-                    sx={{
-                        color: "white",
-                    }}
-                >
-                    <IconButton 
-                        color="white"
-                        size="large"
+            {
+                data.map(project => (
+                    <Box
+                        component="figure"
+                        id="figure-project"
+                        key={project.id}
                     >
-                        <VisibilityIcon />
-                    </IconButton>
-                    Ver
-                </Box>
-            </Box>
+                        <Box
+                            component="img"
+                            id="image-project"
+                            src={`${project.imageLink}`}
+                        >
+                        </Box>
 
-            
-            <Box
-                component="figure"
-                id="figure-project"
-            >
-                <Box
-                    component="img"
-                    id="image-project"
-                    src={`images/projects/marketplace-nucba.jpg`}
-                >
-                </Box>
-
-                <Box
-                    id="content-project"
-                    display="flex"
-                    justifyContent="center"
-                    alignItems="center"
-                    flexDirection="row"
-                    fontSize="1.2rem"
-                    sx={{
-                        color: "black",
-                    }}
-                >
-                    <IconButton 
-                        color="primary"
-                        size="large"
-                    >
-                        <VisibilityIcon />
-                    </IconButton>
-                    Ver
-                </Box>
-            </Box>
+                        <Box
+                            id="content-project"
+                            display="flex"
+                            justifyContent="center"
+                            alignItems="center"
+                            flexDirection="row"
+                            fontSize="1.2rem"
+                            sx={{
+                                color: "white",
+                            }}
+                        >
+                            <IconButton
+                                onClick={() => handleProject(project.id)}
+                                color="white"
+                                size="large"
+                            >
+                                <VisibilityIcon />
+                            </IconButton>
+                            Ver
+                        </Box>
+                    </Box>
+                ))
+            }
 
         </Grid>
     )

@@ -2,6 +2,7 @@ import { Box, Grid } from '@mui/material'
 import React from 'react'
 import { Projects } from './Projects'
 import { ProjectsMobil } from './ProjectsMobil'
+import { projects } from '../../data/projects.json'
 
 export const SectionProjects = () => {
   return (
@@ -17,7 +18,7 @@ export const SectionProjects = () => {
         }}
       >
 
-      { screen.width >= 1000 ? <Projects /> : <ProjectsMobil />}
+      { screen.width >= 1000 ? <Projects data={projects} /> : <ProjectsMobil data={projects} />}
 
       </Box>
   )
