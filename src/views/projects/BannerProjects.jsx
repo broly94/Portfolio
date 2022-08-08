@@ -6,11 +6,11 @@ export const BannerProjects = () => {
         <Box
             sx={{
                 width: '100%',
-                height: '30vh',
+                height: '20vh',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                backgroundColor: '#1e1e1e',
+                backgroundColor: '#e14630',
                 marginTop: '100px'
             }}
             id="Proyectos"
@@ -28,6 +28,7 @@ export const BannerProjects = () => {
                 <Typography
                     color="white.main"
                     textTransform="uppercase"
+                    data-aos="fade-up"
                     sx={{
                         textAlign: 'center',
                         fontSize: {

@@ -61,7 +61,7 @@ export const SectionTechnologies = () => {
                     }}
                 >
 
-                    { screen.width >= 592 ? (<Technology />) : <TechnologyMobil />}
+                    { screen.width >= 592 ? <Technology /> : <TechnologyMobil />}
 
 
                 </Grid>

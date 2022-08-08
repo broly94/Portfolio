@@ -4,7 +4,7 @@ import { Header, SectionProjects } from '../views'
 import { SectionAbout } from '../views'
 import { SectionLearn } from '../views'
 import { SectionTechnologies } from '../views'
-import { BannerProjects } from '../views/BannerProjects'
+import { BannerProjects } from '../views/projects/BannerProjects'
 
 
 export const HomePage = () => {

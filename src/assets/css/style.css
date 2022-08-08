@@ -17,3 +17,46 @@
  #card-tech:hover {
     transform: translateY(-5%);
  }
+
+
+#figure-project {
+    position: relative;
+    max-width: 450px;
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 2px solid #1e1e1e;
+    box-shadow: 0px, 15px, 25px, rgba(0,0,0,0.50);
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+#image-project {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-out;
+}
+
+#content-project {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.90);
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-out;
+}
+
+#figure-project:hover > #content-project {
+    opacity: 1;
+    visibility: visible;
+}
+
+#figure-project:hover {
+    transform: translate(0px, -10px);
+}
