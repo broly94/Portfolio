@@ -29,7 +29,7 @@ export const Projects = ({data}) => {
                     height: 'auto',
                     color: '#FFFFFF',
                     width: '70%',
-                    padding: '50px',
+                    padding: '0px',
                    
                 }}
             >

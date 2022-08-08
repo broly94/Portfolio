@@ -4,6 +4,7 @@ import { Box } from '@mui/system'
 import CodeIcon from '@mui/icons-material/Code';
 import ListIcon from '@mui/icons-material/List';
 
+import WebIcon from '@mui/icons-material/Web';
 import { ListMenu } from './tabmenu/ListMenu'
 import { ListCode } from './tabmenu/ListCode'
 
@@ -38,6 +39,7 @@ export const TabMenu = ({ data, idProject }) => {
                     <Typography
                         sx={{
                             fontSize: '5rem',
+                            justifyContent: 'center',
                             textAlign: 'center',
                             writingMode: 'vertical-rl',
                             textOrientation: 'upleft',
@@ -45,7 +47,8 @@ export const TabMenu = ({ data, idProject }) => {
                             fontFamily: 'Roboto'
                         }}
                     >
-                        Seleccione Proyecto
+                        Seleccione
+                        <WebIcon sx={{ fontSize: '7rem', marginTop: '2rem'}} />
                     </Typography>
                     :
                     (
@@ -84,10 +87,11 @@ export const TabMenu = ({ data, idProject }) => {
                                     onChange={handleChangeTab}
                                     aria-label="icon label tabs example"
                                     sx={{
+                                        width: '100%',
                                     }}
                                 >
-                                    <Tab icon={<ListIcon />} sx={{ width: '50%', color: '#1e1e1e', fontWeight: 800 }} label="Menu" id="icon-list-menu" />
-                                    <Tab icon={<CodeIcon />} sx={{ width: '50%', color: '#1e1e1e', fontWeight: 800 }} label="Tecnologias" id="icon-list-code" />
+                                    <Tab icon={<ListIcon fontSize="large" />} sx={{ width: '50%', color: '#1e1e1e', fontWeight: 800, fontSize: 'large' }} label="Menu" id="icon-list-menu" />
+                                    <Tab icon={<CodeIcon fontSize="large" />} sx={{ width: '50%', color: '#1e1e1e', fontWeight: 800, fontSize: 'large' }} label="Tecnologias" id="icon-list-code" />
                                 </Tabs>
 
                             </Grid>

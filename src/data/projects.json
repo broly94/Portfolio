@@ -23,7 +23,7 @@
             ],
             "githubLink": "https://github.com/broly94/Agenda-Citas-para-Veterinaria",
             "pageLink": "https://stoic-ride-1cd140.netlify.app/",
-            "description": "App para agendar turnos para veterinaria, para la persistencia de datos se utilizó LocalStorage",
+            "description": "Agenda turnos para veterinaria, la persistencia de datos se utilizó LocalStorage",
             "imageLink": "images/projects/citas-veterinaria.png"
         }
     ]

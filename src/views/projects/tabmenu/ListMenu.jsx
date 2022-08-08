@@ -22,8 +22,9 @@ export const ListMenu = React.memo(({ data }) => {
 
                         <Box
                             display='flex'
+                            flexDirection='column'
                             justifyContent='start'
-                            alignItems='start'
+                            alignItems='center'
                             sx={{
                                 height: '80%',
                                 paddingTop: '80px'
@@ -31,13 +32,30 @@ export const ListMenu = React.memo(({ data }) => {
                         >
                             <Typography
                                 sx={{
-                                    fontSize: '2rem',
+                                    componet: 'h2',
+                                    fontSize: '3rem',
                                     textTransform: 'uppercase',
                                     fontWeight: 600
                                 }}
+                                data-aos="fade-down"
                             >
                                 {project.name}
                             </Typography>
+
+                            <Typography
+                                sx={{
+                                    fontWeight: 300,
+                                    textAlign: 'center',
+                                    marginTop: '2.5rem',
+                                    fontFamily: 'Roboto',
+                                    fontSize: '2rem',
+                                    paddingX: '2rem'
+                                }}
+                                data-aos="fade-down"
+                            >
+                                {project.description}
+                            </Typography>
+                            
 
                         </Box>
 
@@ -48,6 +66,7 @@ export const ListMenu = React.memo(({ data }) => {
                             flexDirection='column'
                             sx={{
                                 height: '120%',
+                                marginLeft: '40%'
                             }}
                         >
                             <Typography
@@ -70,10 +89,12 @@ export const ListMenu = React.memo(({ data }) => {
                                         fontWeight: 800,
                                         cursor: 'pointer',
                                         textDecoration: 'none',
+                                        fontSize: '5rem',
                                         transition: '0.2s ease',
                                         '&:hover': {
                                             color: 'secondary.main'
-                                        }
+                                        },
+
                                     }}
                                 >
                                     Github
@@ -104,6 +125,7 @@ export const ListMenu = React.memo(({ data }) => {
                                         cursor: 'pointer',
                                         textDecoration: 'none',
                                         transition: '0.2s ease',
+                                        fontSize: '5rem',
                                         '&:hover': {
                                             color: 'secondary.main'
                                         }

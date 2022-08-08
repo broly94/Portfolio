@@ -23,6 +23,7 @@ export const ImagesProjects = ({ data, getProjectId }) => {
                     sm: '80px',
                     md: '80px'
                 },
+                paddingX: '0px',
                 marginY: '100px'
 
             }}
@@ -31,14 +32,21 @@ export const ImagesProjects = ({ data, getProjectId }) => {
             {
                 data.map(project => (
                     <Box
+                    //Diseño de figure en css
                         component="figure"
                         id="figure-project"
                         key={project.id}
+                        sx={{
+                            width: '50%',
+                        }}
                     >
                         <Box
                             component="img"
                             id="image-project"
                             src={`${project.imageLink}`}
+                            sx={{
+          
+                            }}
                         >
                         </Box>
 
