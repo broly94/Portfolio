@@ -1,11 +1,85 @@
-import { Typography } from '@mui/material'
+import { IconButton, Typography } from '@mui/material'
+import { Box } from '@mui/system'
 import React from 'react'
+
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 export const SectionContact = () => {
   return (
-    <Typography variant='h6'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eligendi, impedit nemo ullam hic quo est minima earum et excepturi eos, eveniet rerum velit doloribus provident sed nihil non, aliquid tempore enim maxime ipsa dolorum sit. Non delectus saepe eaque. Ut impedit nulla nam. Distinctio expedita obcaecati ipsum non saepe quasi vel deserunt eius omnis.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium beatae optio earum architecto eligendi saepe consequatur repellendus officia! Magni animi quas, quam, beatae nemo odio eveniet corrupti repellendus accusamus quis laudantium nisi cumque maiores harum rem porro, molestias ut similique odit reiciendis illo sapiente! Praesentium, veritatis facilis error blanditiis quisquam molestiae mollitia tempora fugiat modi cum temporibus! Soluta molestiae assumenda ut maiores minus nulla vitae, in suscipit incidunt officia natus est id aliquid quos ipsa debitis quas, labore veritatis reiciendis. Vel quidem esse delectus veniam tempora voluptatem adipisci sint blanditiis alias reprehenderit distinctio aperiam vero asperiores reiciendis porro totam minima nemo dolores laboriosam, numquam ratione laborum quis quaerat eum? Nostrum dolorem beatae atque soluta culpa hic nemo eligendi iste maiores vero non rerum, ipsam vel ad corporis eos laborum sunt numquam laudantium a quidem doloremque! Ullam repudiandae totam ipsa, tempora debitis quas dignissimos deserunt facere perferendis excepturi accusamus, ipsam quae corporis, commodi iste quidem. Incidunt exercitationem magnam magni accusantium? Rerum aliquam mollitia sint expedita quam iste dolore provident omnis nisi illo natus beatae sapiente, incidunt laboriosam! Consectetur exercitationem iure, natus officia nam repellat sunt aperiam deserunt possimus accusantium obcaecati quaerat tempore. Et fugiat aspernatur ipsa porro. Expedita perspiciatis ut quae eum reiciendis nemo sunt minus quia assumenda distinctio voluptatum at, dolorum aliquid dicta omnis consequuntur aliquam illum quos! Natus culpa fugiat vero suscipit quaerat excepturi aliquam facere, ipsa labore obcaecati, dolor veniam magnam optio voluptatibus ratione, sed molestiae ex commodi eum corrupti sit reprehenderit! Dolores dolorem atque nostrum tenetur perferendis culpa. Explicabo blanditiis ullam rem? Officiis quas libero sapiente laudantium ducimus distinctio eum odit optio obcaecati iste voluptas fugiat dolores magni molestias nam reprehenderit sit quaerat repellat, ut vero accusamus explicabo unde labore. Vel a sint reiciendis ipsum facere consequuntur? Possimus, ea esse! Accusamus vero possimus similique ipsum temporibus, deserunt atque inventore tempore incidunt laboriosam itaque, numquam natus! Natus quis modi libero quam atque nostrum aspernatur aperiam voluptatem facilis et? Hic amet magnam aliquid quas quibusdam voluptatibus molestiae omnis nesciunt qui laborum ex, veritatis asperiores accusantium quaerat, ipsum eaque debitis saepe voluptate. Amet eos, molestiae dicta voluptatum minus dolore numquam labore sunt cum. Animi, voluptates aut ad beatae quidem vel repellat incidunt quos, quam rem explicabo. Autem expedita eaque inventore obcaecati natus consequuntur veritatis suscipit eligendi esse culpa tempora, voluptatum quidem accusantium laborum ullam. Eius ratione itaque provident, minima possimus quos esse quam. Laudantium pariatur provident quidem laboriosam voluptate quibusdam, saepe sapiente dolor dolorem at maxime aspernatur. Praesentium ex eos, veritatis ducimus debitis quibusdam est neque optio possimus voluptatem? Sunt reprehenderit nemo magni rerum voluptates facere sapiente, aperiam est obcaecati enim quam soluta vel deserunt! Dignissimos quod culpa quis dicta nisi unde, laboriosam sit voluptates, itaque, nulla iusto eligendi tempora odit vitae. Ad eveniet optio ut corporis vero voluptatem praesentium exercitationem sequi officiis quaerat perspiciatis, iste nam, rem alias eos deserunt doloribus. Explicabo debitis, dignissimos eos autem ab unde animi dolore, vitae assumenda quis ad itaque nihil, fugit alias repudiandae impedit eum molestias possimus nam voluptatem perferendis vero. In, quasi?
-    </Typography>
+
+    <Box
+      display="flex"
+      justifyContent="end"
+      alignItems="end"
+      flexDirection="column"
+      sx={{
+        width: '100%',
+        height: '30vh',
+        backgroundColor: 'primary.main',
+        marginTop: '100px'
+
+      }}
+    >
+
+      {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#1e1e1e" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,117.3C384,96,480,64,576,85.3C672,107,768,181,864,176C960,171,1056,85,1152,74.7C1248,64,1344,128,1392,160L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      </svg> */}
+
+      <Box
+        display="flex"
+        justifyContent="center"
+        alignItem="center"
+        flexDirection="row"
+        sx={{
+          width: '100%',
+          position: "relative",
+          bottom: '-150%'
+        }}
+      >
+
+        <IconButton href="https://github.com/broly94" target="_blank" >
+          <GitHubIcon fontSize="large" color="white" sx={{ transition: '0.3s all',  '&:hover': { color:'secondary.main' }}}  />
+        </IconButton>
+
+        <IconButton href="https://www.linkedin.com/in/leonel-carro/" target="_blank" >
+          <LinkedInIcon fontSize="large" color="white" sx={{ transition: '0.3s all',  '&:hover': { color:'secondary.main' }}}  />
+        </IconButton>
+
+        <IconButton href="https://wa.me/1136713336" >
+          <WhatsAppIcon fontSize="large" color="white" sx={{ transition: '0.3s all',  '&:hover': { color:'secondary.main' }}} />
+        </IconButton>
+
+
+      </Box>
+
+      <Box
+        display="flex"
+        justifyContent="start"
+        alignItems="start"
+        flexDirection="column"
+        sx={{
+          width: "100%",
+          maxHeight: "500px",
+        }}
+
+      >
+
+        <Box
+          component="img"
+          src="images/wave.png"
+          sx={{
+            width: "100%",
+            height: "500px"
+          }}
+        >
+        </Box>
+
+      </Box>
+
+
+    </Box >
+
   )
 }
