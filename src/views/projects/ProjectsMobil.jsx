@@ -58,14 +58,14 @@ export const ProjectsMobil = () => {
 
               <Typography
                 sx={{
-                  paddingBottom: '10px',
+                  paddingBottom: '5px',
                   fontWeight: 400,
-                  fontSize: '1rem',
+                  fontSize: '0.8rem',
                   color: '#FFFFFF',
                   textAlign: 'center',
                   padding: '5px',
                   fontFamily: 'Roboto',
-                  lineHeight: '1.2rem' 
+                  lineHeight: '1rem' 
                 }}>
                 {project.description}
               </Typography>
@@ -76,7 +76,7 @@ export const ProjectsMobil = () => {
                 justifyContent="center"
                 alignItems="center"
                 sx={{
-                  padding: '5px'
+                  padding: '2px'
                 }}
               >
                 <IconButton
@@ -85,7 +85,7 @@ export const ProjectsMobil = () => {
                   color="white"
                   target="_blank"
                 >
-                  <LanguageIcon sx={{ fontSize: '2rem' }} />
+                  <LanguageIcon sx={{ fontSize: '1.3rem' }} />
                 </IconButton>
 
                 <IconButton
@@ -94,7 +94,7 @@ export const ProjectsMobil = () => {
                   size="large"
                   color="white"
                 >
-                  <GitHubIcon sx={{ fontSize: '2rem' }} />
+                  <GitHubIcon sx={{ fontSize: '1.4rem' }} />
                 </IconButton>
 
               </Box>

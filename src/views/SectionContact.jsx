@@ -19,14 +19,38 @@ export const SectionContact = () => {
         width: '100%',
         height: '30vh',
         backgroundColor: 'primary.main',
-        marginTop: '100px'
+        marginTop: '500px'
 
       }}
     >
-
-      {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#1e1e1e" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,117.3C384,96,480,64,576,85.3C672,107,768,181,864,176C960,171,1056,85,1152,74.7C1248,64,1344,128,1392,160L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-      </svg> */}
+      <Box
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+        sx={{
+          width: '100%',
+        }}
+      >
+        <Typography
+                variant='h4'
+                gutterBottom
+                component='h4'
+                textTransform="uppercase"
+                fontFamily='Segoe UI'
+                color="inherit"
+                sx={{
+                    paddingY: '20px',
+                    marginY: '20px',
+                    textAlign: 'center',
+                    fontSize: {
+                        xs: '1.4rem',
+                        sm: '2rem'
+                    }
+                }}
+            >
+                Contacto
+            </Typography>
+      </Box>
 
       <Box
         display="flex"
