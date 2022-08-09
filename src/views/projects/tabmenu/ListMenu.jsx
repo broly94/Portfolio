@@ -33,7 +33,7 @@ export const ListMenu = React.memo(({ data }) => {
                             <Typography
                                 sx={{
                                     componet: 'h2',
-                                    fontSize: '3rem',
+                                    fontSize: '1.8rem',
                                     textTransform: 'uppercase',
                                     fontWeight: 600
                                 }}
@@ -44,12 +44,13 @@ export const ListMenu = React.memo(({ data }) => {
 
                             <Typography
                                 sx={{
+
                                     fontWeight: 300,
                                     textAlign: 'center',
-                                    marginTop: '2.5rem',
+                                    marginTop: '2rem',
                                     fontFamily: 'Roboto',
-                                    fontSize: '2rem',
-                                    paddingX: '2rem'
+                                    padding: '20px',
+                                    fontSize: '1.2rem',
                                 }}
                                 data-aos="fade-down"
                             >
@@ -85,14 +86,14 @@ export const ListMenu = React.memo(({ data }) => {
                                     href={`${project.githubLink}`}
                                     target="_blank"
                                     sx={{
-                                        color: "#000000",
+                                        color: "#FFFFFF",
                                         fontWeight: 800,
                                         cursor: 'pointer',
                                         textDecoration: 'none',
-                                        fontSize: '5rem',
+                                        fontSize: '4rem',
                                         transition: '0.2s ease',
                                         '&:hover': {
-                                            color: 'secondary.main'
+                                            color: 'secondary.main',
                                         },
 
                                     }}
@@ -120,14 +121,14 @@ export const ListMenu = React.memo(({ data }) => {
                                     href={`${project.pageLink}`}
                                     target="_blank"
                                     sx={{
-                                        color: "#000000",
+                                        color: "#FFFFFF",
                                         fontWeight: 800,
                                         cursor: 'pointer',
                                         textDecoration: 'none',
                                         transition: '0.2s ease',
-                                        fontSize: '5rem',
+                                        fontSize: '4rem',
                                         '&:hover': {
-                                            color: 'secondary.main'
+                                            color: 'secondary.main',
                                         }
                                     }}
                                 >

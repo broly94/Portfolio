@@ -23,8 +23,6 @@ export const ImagesProjects = ({ data, getProjectId }) => {
                     sm: '80px',
                     md: '80px'
                 },
-                paddingX: '0px',
-                marginY: '100px'
 
             }}
         >
@@ -32,20 +30,16 @@ export const ImagesProjects = ({ data, getProjectId }) => {
             {
                 data.map(project => (
                     <Box
-                    //Diseño de figure en css
                         component="figure"
                         id="figure-project"
                         key={project.id}
-                        sx={{
-                            width: '50%',
-                        }}
                     >
                         <Box
                             component="img"
                             id="image-project"
                             src={`${project.imageLink}`}
                             sx={{
-          
+                                width: '100%',
                             }}
                         >
                         </Box>
@@ -55,20 +49,18 @@ export const ImagesProjects = ({ data, getProjectId }) => {
                             display="flex"
                             justifyContent="center"
                             alignItems="center"
-                            flexDirection="row"
+                            flexDirection="column"
                             fontSize="1.2rem"
-                            sx={{
-                                color: "white",
-                            }}
+                            color="secondary"
                         >
+                            <Typography sx={{ paddingBottom: '20px', textTransform: 'uppercase', fontWeight: 700, fontSize: '1.5rem'}}> {project.name} </Typography>
                             <IconButton
                                 onClick={() => handleProject(project.id)}
-                                color="white"
                                 size="large"
+                                color="secondary"
                             >
                                 <VisibilityIcon />
                             </IconButton>
-                            Ver
                         </Box>
                     </Box>
                 ))

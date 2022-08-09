@@ -14,7 +14,7 @@ export const SectionProjects = () => {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          backgroundColor: '#ededed',
+          backgroundColor: 'inherit',
         }}
       >
 

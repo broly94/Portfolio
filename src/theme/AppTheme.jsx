@@ -24,10 +24,13 @@ export const AppTheme = ({ children }) => {
                         main: '#1e1e1e',
                     },
                     secondary: {
-                        main: '#e14630',
+                        main: '#E02401',
                     },
                     white: {
                         main: '#FFFFFF',
+                    },
+                    textColor: {
+                        secondary: '#FFFFFF'
                     }
                 },
                 typography: {

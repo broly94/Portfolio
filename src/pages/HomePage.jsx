@@ -1,9 +1,7 @@
+import { Typography } from '@mui/material'
 import React from 'react'
 import { DrawerAppBar } from '../components'
-import { Header, SectionProjects } from '../views'
-import { SectionAbout } from '../views'
-import { SectionLearn } from '../views'
-import { SectionTechnologies } from '../views'
+import { Header, SectionProjects, SectionAbout, SectionLearn, SectionTechnologies, SectionContact } from '../views'
 import { BannerProjects } from '../views/projects/BannerProjects'
 
 
@@ -13,7 +11,7 @@ export const HomePage = () => {
         <DrawerAppBar>
 
             <Header />
-            
+
             <SectionAbout />
 
             <SectionTechnologies />
@@ -23,6 +21,8 @@ export const HomePage = () => {
             <BannerProjects />
 
             <SectionProjects />
+
+            <SectionContact />
 
         </DrawerAppBar>
     )

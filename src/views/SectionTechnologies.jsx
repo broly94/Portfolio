@@ -36,7 +36,7 @@ export const SectionTechnologies = () => {
                         variant="p"
                         color="primary"
                         gutterBottom
-                        fontSize="1.5rem"
+                        fontSize="2rem"
                         fontFamily="Segoe UI"
                         textTransform="uppercase"
                         sx={{

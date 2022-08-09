@@ -4,3 +4,4 @@ export * from './SectionLearn';
 export * from './SectionTechnologies';
 export * from './projects/SectionProjects'
 export * from './projects/BannerProjects'
+export * from './SectionContact'

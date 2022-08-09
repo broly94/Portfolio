@@ -4,14 +4,16 @@ import React from 'react'
 export const BannerProjects = () => {
     return (
         <Box
+            
             sx={{
                 width: '100%',
                 height: '20vh',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                backgroundColor: '#e14630',
-                marginTop: '100px'
+                marginTop: '100px',
+                backgroundColor: "inherit",
+                color: 'inherit'
             }}
             id="Proyectos"
         >
@@ -26,7 +28,6 @@ export const BannerProjects = () => {
                 }}
             >
                 <Typography
-                    color="white.main"
                     textTransform="uppercase"
                     data-aos="fade-up"
                     sx={{
@@ -34,7 +35,8 @@ export const BannerProjects = () => {
                         fontSize: {
                             xs: '1.8rem',
                             sm: '2.5rem'
-                        }
+                        },
+                        color: 'inherit',
                     }}
                 >
                     Proyectos

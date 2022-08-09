@@ -21,11 +21,11 @@
 
 #figure-project {
     position: relative;
-    max-width: 850px;
-    max-height: 600px;
+    max-width: 450px;
+    max-height: 300px;
     overflow: hidden;
     border-radius: 5px;
-    border: 2px solid #1e1e1e;
+    border: 1px solid #1e1e1e;
     box-shadow: 0px, 15px, 25px, rgba(0,0,0,0.50);
     cursor: pointer;
     transition: 0.3s;
@@ -43,7 +43,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.90);
+    background-color: rgba(0, 0, 0, 0.8);
     visibility: hidden;
     opacity: 0;
     display: flex;
@@ -57,6 +57,6 @@
     visibility: visible;
 }
 
-#figure-project:hover {
-    transform: translate(0px, -10px);
+#figure-project:hover > img {
+    transform: scale(1.1);
 }

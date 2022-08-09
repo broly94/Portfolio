@@ -3,8 +3,8 @@ import { Grid, Tab, Tabs, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import CodeIcon from '@mui/icons-material/Code';
 import ListIcon from '@mui/icons-material/List';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
-import WebIcon from '@mui/icons-material/Web';
 import { ListMenu } from './tabmenu/ListMenu'
 import { ListCode } from './tabmenu/ListCode'
 
@@ -39,16 +39,14 @@ export const TabMenu = ({ data, idProject }) => {
                     <Typography
                         sx={{
                             fontSize: '5rem',
-                            justifyContent: 'center',
                             textAlign: 'center',
                             writingMode: 'vertical-rl',
                             textOrientation: 'upleft',
-                            color: 'black',
                             fontFamily: 'Roboto'
                         }}
                     >
                         Seleccione
-                        <WebIcon sx={{ fontSize: '7rem', marginTop: '2rem'}} />
+                        <ArrowBackIcon color="white" fontSize="1rem" sx={{ marginTop: '20px' }} />
                     </Typography>
                     :
                     (
@@ -61,7 +59,7 @@ export const TabMenu = ({ data, idProject }) => {
                         >
                             <Grid
                                 item
-                                xs={11}
+                                xs={10}
                                 sx={{
                                     height: '100%',
                                 }}
@@ -75,7 +73,7 @@ export const TabMenu = ({ data, idProject }) => {
 
                             <Grid
                                 item
-                                xs={1}
+                                xs={2}
                                 sx={{
                                     height: '100%',
                                     width: '100%',
@@ -86,12 +84,27 @@ export const TabMenu = ({ data, idProject }) => {
                                     value={value}
                                     onChange={handleChangeTab}
                                     aria-label="icon label tabs example"
+                                    textColor="secondary.main"
+                                    indicatorColor="secondary"
                                     sx={{
                                         width: '100%',
+                                        height: '100%',
+                                        paddingTop: '10%'
                                     }}
                                 >
-                                    <Tab icon={<ListIcon fontSize="large" />} sx={{ width: '50%', color: '#1e1e1e', fontWeight: 800, fontSize: 'large' }} label="Menu" id="icon-list-menu" />
-                                    <Tab icon={<CodeIcon fontSize="large" />} sx={{ width: '50%', color: '#1e1e1e', fontWeight: 800, fontSize: 'large' }} label="Tecnologias" id="icon-list-code" />
+                                    <Tab
+                                        icon={<ListIcon sx={{ color: '#FFFFFF' }} />}
+                                        alignSelft='end'
+                                        sx={{ color: '#FFFFFF', width: '50%', fontWeight: 600, fontSize: 'small', alignSelft: 'end' }}
+                                        label="Menu"
+                                        id="icon-list-menu"
+                                    />
+
+                                    <Tab
+                                        icon={<CodeIcon sx={{ color: '#FFFFFF' }} />}
+                                        sx={{ width: '50%', fontWeight: 600, fontSize: 'small' }}
+                                        label="Tecnologias"
+                                        id="icon-list-code" />
                                 </Tabs>
 
                             </Grid>
