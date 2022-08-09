@@ -23,6 +23,13 @@ export const SectionAbout = () => {
             <Typography
                 variant="h1"
                 fontFamily="Roboto"
+                sx={{
+                    fontSize: {
+                        xs: '2rem',
+                        sm: '4rem'
+                    },
+                    textAlign: 'center'
+                }}
             >
                 Leonel Gabriel Carro
             </Typography>
@@ -37,11 +44,6 @@ export const SectionAbout = () => {
                     marginY: '50px'
                 }}
             >
-
-
-
-
-
                 <Box
                     component="img"
                     sx={{

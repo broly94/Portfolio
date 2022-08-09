@@ -29,12 +29,15 @@ export const SectionLearn = () => {
                 component='h4'
                 textTransform="uppercase"
                 fontFamily='Segoe UI'
-                fontSize='2rem'
                 color="inherit"
                 sx={{
                     paddingY: '20px',
                     marginY: '20px',
-                    textAlign: 'center'
+                    textAlign: 'center',
+                    fontSize: {
+                        xs: '1.4rem',
+                        sm: '2rem'
+                    }
                 }}
             >
                 Cursos Realizados

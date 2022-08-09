@@ -36,12 +36,15 @@ export const SectionTechnologies = () => {
                         variant="p"
                         color="primary"
                         gutterBottom
-                        fontSize="2rem"
                         fontFamily="Segoe UI"
                         textTransform="uppercase"
                         sx={{
                             marginBottom: '40px',
-                            textAlign: "center"
+                            textAlign: "center",
+                            fontSize: {
+                                xs: '1.4rem',
+                                sm: '2rem'
+                            }
                         }}
                     >
                         Tecnologias utilizadas

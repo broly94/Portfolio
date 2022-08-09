@@ -33,8 +33,8 @@ export const BannerProjects = () => {
                     sx={{
                         textAlign: 'center',
                         fontSize: {
-                            xs: '1.8rem',
-                            sm: '2.5rem'
+                            xs: '1.4rem',
+                            sm: '2rem'
                         },
                         color: 'inherit',
                     }}
