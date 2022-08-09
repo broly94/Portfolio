@@ -65,7 +65,7 @@ export const ListMenu = React.memo(({ data }) => {
                             justifyContent='start'
                             alignItems='center'
                             flexDirection='column'
-                            data-aos="fade-left"
+                            data-aos="fade-up"
                             data-aos-duration="1500"
                             sx={{
                                 height: '120%',
