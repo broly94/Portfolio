@@ -17,7 +17,7 @@ export const ProjectsMobil = () => {
         flexWrap: 'wrap',
         flexDirection: 'row',
         justifyContent: 'center',
-        marginBottom: '50px'
+        marginBottom: '70px'
 
       }}
     >
@@ -43,15 +43,14 @@ export const ProjectsMobil = () => {
               justifyContent="center"
               alignItems="center"
               flexDirection="column"
-              fontSize="1.2rem"
               color="secondary"
             >
               <Typography
                 sx={{
-                  paddingBottom: '10px',
+                  paddingBottom: '0px',
                   textTransform: 'uppercase',
                   fontWeight: 700,
-                  fontSize: '1.5rem',
+                  fontSize: '1.2rem',
                   color: 'secondary.main'
                 }}>
                 {project.name}
@@ -59,12 +58,14 @@ export const ProjectsMobil = () => {
 
               <Typography
                 sx={{
-                  paddingBottom: '20px',
-                  fontWeight: 500,
+                  paddingBottom: '10px',
+                  fontWeight: 400,
                   fontSize: '1rem',
                   color: '#FFFFFF',
                   textAlign: 'center',
-                  padding: '5px'
+                  padding: '5px',
+                  fontFamily: 'Roboto',
+                  lineHeight: '1.2rem' 
                 }}>
                 {project.description}
               </Typography>

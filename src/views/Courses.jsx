@@ -39,6 +39,12 @@ export const Courses = ({
                 target="_blank"
                 sx={{
                     mt: 1,
+                    transition: '0.1s ease-in-out',
+                    backgroundColor: 'secondary.main',
+                    '&:hover': {
+                        backgroundColor: 'rgba(224, 36, 1, 0.75)',
+                        transform: 'scale(1.03)'
+                    }
                 }}
             >
                 Certificado
@@ -160,6 +166,12 @@ export const Courses = ({
                         target="_blank"
                         sx={{
                             mt: 1,
+                            backgroundColor: 'secondary.main',
+                            transition: '0.1s ease-in-out',
+                            '&:hover': {
+                                backgroundColor: 'rgba(224, 36, 1, 0.75)',
+                                transform: 'scale(1.03)'
+                            }
                         }}
                     >
                         Ver Curso

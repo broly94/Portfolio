@@ -93,7 +93,19 @@ export const DrawerAppBar = (props) => {
                         <Grid item display="flex">
                             <Box sx={{ display: { xs: 'none', sm: 'flex' } }}>
                                 {navItems.map((item) => (
-                                    <Button href={`#${item}`} color="inherit" sx={{ fontFamily: 'Segoe UI', fontSize: '1rem', fontWeight: '600' }} key={item} >
+                                    <Button
+                                        href={`#${item}`}
+                                        color="inherit"
+                                        sx={{
+                                            fontFamily: 'Segoe UI',
+                                            fontSize: '1rem',
+                                            fontWeight: 600,
+                                            transition: '0.3s all',
+                                            '&:hover': {
+                                                color: 'secondary.main'
+                                            }
+                                        }}
+                                        key={item} >
                                         {item}
                                     </Button>
                                 ))}

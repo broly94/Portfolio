@@ -14,6 +14,7 @@ export const SectionContact = () => {
       justifyContent="end"
       alignItems="end"
       flexDirection="column"
+      id="Contacto"
       sx={{
         width: '100%',
         height: '30vh',

@@ -11,7 +11,7 @@
             "githubLink": "https://github.com/broly94/Web-Marketplace-para-Bicicleterias",
             "pageLink": "https://astounding-praline-9d3661.netlify.app/",
             "description": "Sitio web e-commerce realizado como trabajo integrador del bootcamp NUCBA ",
-            "imageLink": "images/projects/marketplace-nucba.jpg"
+            "imageLink": "images/projects/marketplace-nucba.png"
         },
         {
             "id": 2,
@@ -25,6 +25,19 @@
             "pageLink": "https://stoic-ride-1cd140.netlify.app/",
             "description": "Agenda turnos para veterinaria, la persistencia de datos se utilizó LocalStorage",
             "imageLink": "images/projects/citas-veterinaria.png"
+        },
+        {
+            "id": 3,
+            "name": "Portfolio",
+            "technologies": [
+                "images/technologies/css.png",
+                "images/technologies/react.png",
+                "images/technologies/materialui.png"
+            ],
+            "githubLink": "https://github.com/broly94/Portfolio",
+            "pageLink": "https://leonel-dev.com",
+            "description": "Portafolio personal donde se encuentra una descripcion sobre mi, tecnologias que utilizo, cursos realizados y proyectos propios",
+            "imageLink": "images/projects/portfolio.png"
         }
     ]
 }

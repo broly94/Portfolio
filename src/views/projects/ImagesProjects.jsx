@@ -57,9 +57,10 @@ export const ImagesProjects = ({ data, getProjectId }) => {
                             <IconButton
                                 onClick={() => handleProject(project.id)}
                                 size="large"
-                                color="secondary"
+                                color="white"
+                                sx={{ transition: '0.3s all', '&:hover': { color: 'secondary.main' } }}
                             >
-                                <VisibilityIcon />
+                                <VisibilityIcon fontSize="medium" />
                             </IconButton>
                         </Box>
                     </Box>
