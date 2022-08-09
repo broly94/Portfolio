@@ -38,7 +38,7 @@ export const TabMenu = ({ data, idProject }) => {
                     ?
                     <Typography
                         sx={{
-                            fontSize: '5rem',
+                            fontSize: '4rem',
                             textAlign: 'center',
                             writingMode: 'vertical-rl',
                             textOrientation: 'upleft',
@@ -89,7 +89,6 @@ export const TabMenu = ({ data, idProject }) => {
                                     sx={{
                                         width: '100%',
                                         height: '100%',
-                                        paddingTop: '10%'
                                     }}
                                 >
                                     <Tab
