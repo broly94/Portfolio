@@ -27,13 +27,16 @@ export const ListMenu = React.memo(({ data }) => {
                             alignItems='center'
                             sx={{
                                 height: '80%',
-                                paddingTop: '80px'
+                                paddingTop: '20px'
                             }}
                         >
                             <Typography
                                 sx={{
                                     componet: 'h2',
-                                    fontSize: '1.8rem',
+                                    fontSize: {
+                                        xs: '1.5rem',
+                                        sm: '1.8rem'
+                                    },
                                     textTransform: 'uppercase',
                                     fontWeight: 600
                                 }}
@@ -49,8 +52,11 @@ export const ListMenu = React.memo(({ data }) => {
                                     textAlign: 'center',
                                     marginTop: '2rem',
                                     fontFamily: 'Roboto',
-                                    padding: '20px',
-                                    fontSize: '1.2rem',
+                                    paddingX: '10px',
+                                    fontSize: {
+                                        xs: '1rem',
+                                        sm: '1.2rem'
+                                    }
                                 }}
                                 data-aos="fade-down"
                             >
@@ -62,7 +68,7 @@ export const ListMenu = React.memo(({ data }) => {
 
                         <Box
                             display='flex'
-                            justifyContent='start'
+                            justifyContent='center'
                             alignItems='center'
                             flexDirection='column'
                             data-aos="fade-up"

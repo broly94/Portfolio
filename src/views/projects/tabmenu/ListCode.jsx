@@ -13,8 +13,12 @@ export const ListCode = ({ data }) => {
                         justifyContent='center'
                         alignItems='center'
                         flexDirection="column"
+                        flexWrap={true}
                         sx={{
                             height: '100%',
+                            width: '100%',
+                            paddingTop: '30px',
+                            overflow: 'hidden'
                         }}
                         key={element.id}
                     >
@@ -24,7 +28,7 @@ export const ListCode = ({ data }) => {
                                     component="img"
                                     sx={{
                                         maxWidth: '200px',
-                                        maxHeight: '150px',
+                                        maxHeight: '200px',
                                     }}
                                     src={`${tech}`}
                                 >

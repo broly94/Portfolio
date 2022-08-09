@@ -30,6 +30,7 @@ export const TabMenu = ({ data, idProject }) => {
             alignItems="center"
             sx={{
                 height: '100%',
+                width: '100%',
             }}
         >
 
@@ -50,18 +51,19 @@ export const TabMenu = ({ data, idProject }) => {
                     </Typography>
                     :
                     (
-                        <Grid
+                        <Box
                             container
                             direction="column"
                             sx={{
                                 height: '100%',
+                                width: '100%',
                             }}
                         >
-                            <Grid
+                            <Box
                                 item
-                                xs={10}
                                 sx={{
-                                    height: '100%',
+                                    height: '80%',
+                                    width: '100%',
                                 }}
                             >
 
@@ -69,15 +71,16 @@ export const TabMenu = ({ data, idProject }) => {
                                     value === 0 ? <ListMenu data={projectSelected} /> : <ListCode data={projectSelected} />
                                 }
 
-                            </Grid>
+                            </Box>
 
-                            <Grid
-                                item
-                                xs={2}
+                            <Box
                                 sx={{
-                                    height: '100%',
                                     width: '100%',
+                                    height: '20%',
                                 }}
+                                display="flex"
+                                alignItem="flex-end"
+                            
                             >
 
                                 <Tabs
@@ -86,15 +89,17 @@ export const TabMenu = ({ data, idProject }) => {
                                     aria-label="icon label tabs example"
                                     textColor="secondary.main"
                                     indicatorColor="secondary"
+                                    display="flex"
                                     sx={{
                                         width: '100%',
-                                        height: '100%',
+                                        justifyContent: 'center',
+                                        alignItems: 'flex-end'
                                     }}
                                 >
                                     <Tab
                                         icon={<ListIcon sx={{ color: '#FFFFFF' }} />}
                                         alignSelft='end'
-                                        sx={{ color: '#FFFFFF', width: '50%', fontWeight: 600, fontSize: 'small', alignSelft: 'end' }}
+                                        sx={{ color: '#FFFFFF', width: '50%', fontWeight: 600, fontSize: 'small' }}
                                         label="Menu"
                                         id="icon-list-menu"
                                     />
@@ -106,9 +111,9 @@ export const TabMenu = ({ data, idProject }) => {
                                         id="icon-list-code" />
                                 </Tabs>
 
-                            </Grid>
+                            </Box>
 
-                        </Grid>
+                        </Box>
                     )
             }
 

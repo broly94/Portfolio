@@ -53,7 +53,8 @@ export const Projects = ({data}) => {
                     top: '70px',
                     margin: '20px',
                     borderRadius: '5px',
-                    border: '1px solid #1e1e1e'
+                    border: '1px solid #1e1e1e',
+                    
                 }}
             >
                 <TabMenu data={data} idProject={id} />
