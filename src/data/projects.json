@@ -1,56 +1,46 @@
 {
-    "projects": [
-        {
-            "id": 1,
-            "name": "Marketplace",
-            "technologies": [
-                "images/technologies/html.png",
-                "images/technologies/css.png",
-                "images/technologies/javascript.png"
-            ],
-            "githubLink": "https://github.com/broly94/Web-Marketplace-para-Bicicleterias",
-            "pageLink": "https://astounding-praline-9d3661.netlify.app/",
-            "description": "Sitio web e-commerce realizado como trabajo integrador del bootcamp NUCBA ",
-            "imageLink": "images/projects/marketplace-nucba.png"
-        },
-        {
-            "id": 2,
-            "name": "App Citas Veterinaria",
-            "technologies": [
-                "images/technologies/html.png",
-                "images/technologies/css.png",
-                "images/technologies/react.png"
-            ],
-            "githubLink": "https://github.com/broly94/Agenda-Citas-para-Veterinaria",
-            "pageLink": "https://stoic-ride-1cd140.netlify.app/",
-            "description": "Agenda turnos para veterinaria, la persistencia de datos se utilizó LocalStorage",
-            "imageLink": "images/projects/citas-veterinaria.png"
-        },
-        {
-            "id": 3,
-            "name": "Portfolio",
-            "technologies": [
-                "images/technologies/css.png",
-                "images/technologies/react.png",
-                "images/technologies/materialui.png"
-            ],
-            "githubLink": "https://github.com/broly94/Portfolio",
-            "pageLink": "https://leonel-dev.com",
-            "description": "Portafolio personal donde se encuentra una descripcion sobre mi, tecnologias que utilizo, cursos realizados y proyectos propios",
-            "imageLink": "images/projects/portfolio.png"
-        },
-        {
-            "id": 4,
-            "name": "Shipment App",
-            "technologies": [
-                "images/technologies/typescript.png",
-                "images/technologies/react.png",
-                "images/technologies/materialui.png"
-            ],
-            "githubLink": "https://github.com/broly94/shipment-app",
-            "pageLink": "https://shipment-app-d9jt.vercel.app",
-            "description": "Aplicacion para reserva de motos para envios",
-            "imageLink": "images/projects/shipment-app.png"
-        }
-    ]
+	"projects": [
+		{
+			"id": 1,
+			"name": "Portfolio",
+			"technologies": [
+				"images/projects/technologies/css.png",
+				"images/projects/technologies/react.png",
+				"images/projects/technologies/materialui.png"
+			],
+			"githubLink": "https://github.com/broly94/Portfolio",
+			"pageLink": "https://leonel-dev.com",
+			"description": "Portafolio personal donde se encuentra una descripcion sobre mi, tecnologias que utilizo, cursos realizados y proyectos propios",
+			"imageLink": "images/projects/portfolio.png"
+		},
+		{
+			"id": 2,
+			"name": "Shipment App",
+			"technologies": [
+				"images/projects/technologies/typescript.png",
+				"images/projects/technologies/react.png",
+				"images/projects/technologies/materialui.png"
+			],
+			"githubLink": "https://github.com/broly94/shipment-app",
+			"pageLink": "https://shipment-app-d9jt.vercel.app",
+			"description": "Aplicacion para reserva de motos para envios",
+			"imageLink": "images/projects/shipment-app.png"
+		},
+		{
+			"id": 3,
+			"name": "Trivia Game",
+			"technologies": [
+				"images/projects/technologies/typescript.png",
+				"images/projects/technologies/tailwind.png",
+				"images/projects/technologies/react.png",
+				"images/projects/technologies/mysql.png",
+				"images/projects/technologies/node.png",
+				"images/projects/technologies/redux.png"
+			],
+			"githubLink": "https://github.com/broly94/trivia-client",
+			"pageLink": "https://trivia-client.vercel.app",
+			"description": "Juego de trivia (Backend y Frontend)",
+			"imageLink": "images/projects/trivia-game.png"
+		}
+	]
 }

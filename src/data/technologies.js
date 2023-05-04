@@ -78,5 +78,10 @@ export const tech = [
         "id": 16,
         "name": "Typescript",
         "url": "typescript.png",
+    },
+    {
+        "id": 17,
+        "name": "Tailwind",
+        "url": "tailwind.png"
     }
 ]

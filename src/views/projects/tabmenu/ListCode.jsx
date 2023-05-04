@@ -1,47 +1,36 @@
-import { Box } from '@mui/material'
-import React from 'react'
+import { Box } from '@mui/material';
+import React from 'react';
 
 export const ListCode = ({ data }) => {
-
-    return (
-        <>
-
-            {
-                data.map(element => (
-                    <Box
-                        display='flex'
-                        justifyContent='center'
-                        alignItems='center'
-                        flexDirection="column"
-                        flexWrap={true}
-                        sx={{
-                            height: '100%',
-                            width: '100%',
-                            paddingTop: '30px',
-                            overflow: 'hidden'
-                        }}
-                        key={element.id}
-                    >
-                        {
-                            element.technologies.map(tech => (
-                                <Box
-                                    component="img"
-                                    sx={{
-                                        maxWidth: '200px',
-                                        maxHeight: '200px',
-                                    }}
-                                    src={`${tech}`}
-                                >
-                                </Box>
-                            ))
-                        }
-                    </Box>
-                ))
-
-            }
-
-        </>
-
-
-    )
-}
+	return (
+		<>
+			{data.map((element) => (
+				<Box
+					key={element.id}
+					display='flex'
+					justifyContent='center'
+					alignItems='center'
+					flexDirection='column'
+					flexWrap={true}
+					sx={{
+						height: '100%',
+						width: '100%',
+						overflowY: 'auto',
+						overflowX: 'hidden',
+					}}
+				>
+					{element.technologies.map((tech) => (
+						<Box
+							component='img'
+							sx={{
+								maxWidth: '100px',
+								maxHeight: '100px',
+							}}
+							src={`${tech}`}
+						></Box>
+					))}
+				</Box>
+			))}
+		</>
+	);
+};
